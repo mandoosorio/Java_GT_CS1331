@@ -3,7 +3,8 @@ import java.util.Random;
 
 public class Sort {
 
-    // less efficient execution time 
+    // less efficient execution time
+    // exhibits quadratic growth
     // will loop as many times as there are characters in an array
     // does a comparison on every item, loop within a loop
     /* minIndex is the index that currently holds the lowest value
@@ -73,6 +74,7 @@ public class Sort {
     }
 
     // more efficient executing time
+    // exhibits linear growth
     /*
      * breaks lists into halves
      * merges halves into sorted orders
